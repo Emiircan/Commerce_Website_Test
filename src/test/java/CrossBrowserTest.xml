@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross Browser Test Suite">
+
+    <test name="Edge Browser Test">
+        <parameter name="browser" value="edge"></parameter>
+        <parameter name="mail" value="cbrowsertestedge@gmail.com"></parameter>
+        <classes>
+            <class name="Test.Tests"></class>
+        </classes>
+    </test>
+
+    <test name="Chrome Browser Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="mail" value="cbrowsertestchrome@gmail.com"></parameter>
+        <classes>
+            <class name="Test.Tests"></class>
+        </classes>
+    </test>
+
+</suite>
